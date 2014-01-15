@@ -27,15 +27,74 @@
 /* GENERAL START */
 	body {
 	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 13px;
+	font-family: "NOTHS Sans No2 Regular","Helvetica Neue","HelveticaNeue",Arial,sans-serif;
+	font-size: 14px;
 	line-height: 18px;
-	color: #333333;
+	color: #555;
 	background-color: white;
+	background: #fff url(http://cdn3.notonthehighstreet.com/images/site/backgrounds/gradient_bg.png) 0 220px repeat-x;
+	}
+
+	body a {
+		color:#0ca6d4;
 	}
 	
-	.container-fluid{ max-width:940px; margin:auto; }
+	body a:hover {
+		color:#0ca6d4;
+	}
 	
+	.container-fluid{ 
+		max-width:940px; margin:auto; 
+	}
+	
+	/* LOGO */
+
+	.header_logo {
+		background: url("http://cdn3.notonthehighstreet.com/images/header/logos/tag_logo@2x.png") no-repeat;
+		float: left;
+		display: inline;
+		text-indent: -9999px;
+	}
+
+	#header .header_logo a {
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+
+	.header_logo {
+		width: 263px;
+		height: 129px;
+		position: relative;
+		margin-top: 7px;
+		z-index: 1;
+		background-size: 100%;
+	}
+
+	#header .tagline {
+		background: transparent url("http://cdn3.notonthehighstreet.com/images/header/titles/for_a_life_less_ordinary.svg") left top no-repeat;
+		background-size: 100%;
+		text-indent: -9999px;
+		height: 34px;
+		width: 206px;
+		margin: 103px 0 0 188px;
+	}
+
+	/* LOGO END */
+
+	/* SIGN IN */
+
+	#header_login a {
+		color: #555;
+	}
+
+	#header_login a:hover {
+		color: #0ca6d4;
+		border-color: #0ca6d4;
+		text-decoration: none;
+	}
+
+	/* SIGN IN END */
 	
 	/* NAVIGATION START */
 		ul, ol {
@@ -50,9 +109,12 @@
 		}
 
 		.nav-list {
+		font-family: "NOTHS Sans No2 SemiBold","Helvetica Neue","HelveticaNeue",Arial,sans-serif;
+		color: #434343;
 		padding-left: 15px;
 		padding-right: 15px;
 		margin-bottom: 0;
+		text-transform: uppercase;
 		}
 
 		.menu .nav {
@@ -75,23 +137,31 @@
 		.nav-list > li > a, .nav-list .nav-header {
 		margin-left: -15px;
 		margin-right: -15px;
-		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 		}
 
 		.nav-list > li > a {
 		padding: 3px 15px;
+		color: #434343;
+		}
+
+		.nav-list > li > a:hover {
+		border: 1px solid #ccc!important;
+		background-color: #fff;
 		}
 
 		.nav-list > .active > a, .nav-list > .active > a:hover {
-		color: white;
-		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+		background-color: #fff;
+		}
+
+		.menu .nav li.active a {
+		box-shadow: none;
 		}
 
 		.menu .nav li a {
 		margin: 0;
 		padding: 5px 5%;
 		margin: 3px 1%;
-		border: 1px solid #ccc;
+		border: none;
 		text-align: center;
 		border-radius: 3px;
 		font-weight: bold;
@@ -102,9 +172,19 @@
 		}
 
 		.menu .nav li.active a {
-		border-color: #fff;
-		box-shadow: 0px 0px 20px #ccc;
+		border-bottom: 5px solid #0ca6d4;
+		color: #434343;
 		}
+
+		.breadcrumb_noths {
+		margin: 10px 0 20px 0;
+		font-family: "NOTHS Sans No2 Regular","Helvetica Neue","HelveticaNeue",Arial,sans-serif;
+		font-style: normal;
+		font-size: 12px;
+		color: #434343;
+		text-transform: uppercase;
+		}
+
 	/* NAVIGATION END */
 	
 	#cnl_footer_left, #cnl_footer_right {
