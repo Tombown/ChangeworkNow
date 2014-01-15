@@ -1,0 +1,12 @@
+.cnl-cookies {font-size: 12px; position:fixed; width: 90%; left: 0; top: auto; bottom: 0; padding: 0.5em 5%; background: #565656; color: #fff; font-size: 13px; font-weight: 700; text-shadow: 0 -1px 0 rgba(0,0,0,0.35); z-index: 99999; text-align: center; color: #fff; }
+.cnl-cookies a, .cnl-cookies a:hover { color: #fff; text-decoration: underline; }
+.cnl-cookies a:hover { text-decoration: none; }
+.cnl-cookies a.btn{ text-decoration: none; }
+
+@media screen and (max-width: 768px) {
+.cnl-cookies a.cnl-cookie-accept, .cnl-cookies a.cnl-cookie-decline, .cnl-cookies a.cnl-cookie-reset { display: block; margin: 1em 0; }
+}
+
+@media screen and (max-width: 480px) {
+.cnl-cookies { position: relative;  }
+}

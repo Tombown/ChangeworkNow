@@ -1,0 +1,210 @@
+/* 	CUSTOM BRANDING CSS 
+	This file contains styleable elements and their default styles, with global settings inherited from custom-bootstrap.css.  
+	Any additional customisation should be placed in this file.
+*/
+
+/* Target specific size screens here */
+	@media (min-width: 1200px) {
+	/* Large desktop */
+	}
+
+	@media (min-width: 768px) and (max-width: 979px) { 
+	/* Portrait tablet to landscape and desktop */
+
+	}
+
+	@media (max-width: 767px) { 
+	/* Landscape phone to portrait tablet */
+
+	}
+
+	@media (max-width: 480px) { 
+	/* Landscape phones and down */
+
+	}
+
+
+/* GENERAL START */
+	body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333333;
+	background-color: white;
+	}
+	
+	.container-fluid{ max-width:940px; margin:auto; }
+	
+	
+	/* NAVIGATION START */
+		ul, ol {
+		padding: 0;
+		margin: 0 0 9px 25px;
+		}
+
+		.nav {
+		margin-left: 0;
+		margin-bottom: 18px;
+		list-style: none;
+		}
+
+		.nav-list {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom: 0;
+		}
+
+		.menu .nav {
+		padding: 0;
+		}
+
+		li {
+		line-height: 18px;
+		}
+
+		.menu .nav li {
+		float: left;
+		width: 25%;
+		}
+
+		.nav > li > a {
+		display: block;
+		}
+
+		.nav-list > li > a, .nav-list .nav-header {
+		margin-left: -15px;
+		margin-right: -15px;
+		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+		}
+
+		.nav-list > li > a {
+		padding: 3px 15px;
+		}
+
+		.nav-list > .active > a, .nav-list > .active > a:hover {
+		color: white;
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+		}
+
+		.menu .nav li a {
+		margin: 0;
+		padding: 5px 5%;
+		margin: 3px 1%;
+		border: 1px solid #ccc;
+		text-align: center;
+		border-radius: 3px;
+		font-weight: bold;
+		}
+
+		.menu .nav li:first-child a {
+		margin-left: 0;
+		}
+
+		.menu .nav li.active a {
+		border-color: #fff;
+		box-shadow: 0px 0px 20px #ccc;
+		}
+	/* NAVIGATION END */
+	
+	#cnl_footer_left, #cnl_footer_right {
+	padding-top: 20px;
+	}	
+/* GENERAL END */
+
+
+
+
+
+
+/* SEARCH AND RESULTS PAGES START */
+
+	#map_canvas{ 
+	width:100%; 
+	height:300px; 
+	}
+	
+	
+/* SEARCH AND RESULTS PAGES END */
+
+/* POSITION DISPLAY PAGE START */
+
+	.position_additional_detail {
+	background: white;
+	padding: 5px;
+	border-radius: 3px;
+	}
+
+	.padded {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	
+	.buttoncenter {
+	margin-bottom: 10px;
+	}	
+	
+	.share_links {
+	margin-top: 10px;
+	}
+
+/* POSITION DISPLAY PAGE END */
+
+/* BIO, PEP, APPLICATION FORM START */
+	form.iswForm .iswQuestionErrorPanel {
+	background-color: #ffdee2;
+	border: 1px solid #cc0000;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #666666;
+	margin: 10px;
+	padding: 5px;
+	float: right;
+	width: 25%;
+	}
+	
+	form.iswForm .iswQuestionErrorPanel {
+	width: auto;
+	float: none;
+	}	
+	
+	form.iswForm .iswQuestionOptionsError input {
+	border: 1px solid #cc0000;
+	background-color: #ffff80;
+	}	
+	
+	form.iswForm .iswQuestionOptions span input {
+	margin-left: 3px;
+	}	
+	
+	form.iswForm .iswQuestionHeading {
+	width: 100%;
+	padding: 3px 0;
+	}
+	
+	form.iswForm .iswQuestionQuestionText p {
+	font-weight: bold;
+	font-size: inherit;
+	text-align: left;
+	margin: 5px 10px 5px 10px;
+	padding: 2px 2px;
+	}	
+	
+	form.iswForm .iswQuestionHelpPanel {
+	border: 1px solid #666666;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #666666;
+	margin: 10px;
+	padding: 5px;
+	}	
+	
+	form.iswForm .iswNavigationBarMain {
+	text-align: center;
+	}
+	
+	progress .linkColor-bar {
+
+	}	
+
+/* BIO, PEP, APPLICATION FORM END */
