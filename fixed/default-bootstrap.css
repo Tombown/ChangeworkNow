@@ -1241,13 +1241,13 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: rgba(82, 168, 236, 0.8);
+  /*border-color: rgba(82, 168, 236, 0.8);*/
   outline: 0;
   outline: thin dotted \9;
   /* IE6-9 */
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 /* line 136, ../../../../../../.rvm/gems/ruby-1.9.3-p385/gems/bootstrap-sass-2.2.2.0/vendor/assets/stylesheets/bootstrap/_forms.scss */
@@ -7997,9 +7997,9 @@ a.label:hover, a.badge:hover {
 
   /* line 895, ../../../../config/deploy.default/assets/stylesheets/default/bootstrap-responsive.css.erb */
   input[type="checkbox"],
-  input[type="radio"] {
+  /* input[type="radio"] {
     border: 1px solid #cccccc;
-  }
+  }*/
 
   /* line 898, ../../../../config/deploy.default/assets/stylesheets/default/bootstrap-responsive.css.erb */
   .form-horizontal .control-label {

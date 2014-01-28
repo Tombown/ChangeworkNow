@@ -49,13 +49,6 @@
 	
 	/* LOGO */
 
-	.header_logo {
-		background: url("http://cdn3.notonthehighstreet.com/images/header/logos/tag_logo@2x.png") no-repeat;
-		float: left;
-		display: inline;
-		text-indent: -9999px;
-	}
-
 	#header .header_logo a {
 		display: block;
 		height: 100%;
@@ -69,15 +62,6 @@
 		margin-top: 7px;
 		z-index: 1;
 		background-size: 100%;
-	}
-
-	#header .tagline {
-		background: transparent url("http://cdn3.notonthehighstreet.com/images/header/titles/for_a_life_less_ordinary.svg") left top no-repeat;
-		background-size: 100%;
-		text-indent: -9999px;
-		height: 34px;
-		width: 206px;
-		margin: 103px 0 0 188px;
 	}
 
 	/* LOGO END */
@@ -147,14 +131,24 @@
 		.nav-list > li > a:hover {
 		border: 1px solid #ccc!important;
 		background-color: #fff;
+		margin-bottom: 3px;
 		}
 
 		.nav-list > .active > a, .nav-list > .active > a:hover {
 		background-color: #fff;
+		position: relative;
 		}
 
 		.menu .nav li.active a {
+		border-bottom: 5px solid #0ca6d4;
 		box-shadow: none;
+		color: #434343;
+		}
+
+		.menu .nav li.active a:hover {
+		box-shadow: none;
+		border-bottom: 5px solid #0ca6d4!important;
+		position: relative;
 		}
 
 		.menu .nav li a {
@@ -169,11 +163,6 @@
 
 		.menu .nav li:first-child a {
 		margin-left: 0;
-		}
-
-		.menu .nav li.active a {
-		border-bottom: 5px solid #0ca6d4;
-		color: #434343;
 		}
 
 		.breadcrumb_noths {
@@ -192,10 +181,44 @@
 	}	
 /* GENERAL END */
 
+/* noths button */
 
-
-
-
+.btn-noths {
+border: 1px solid #056582;
+-moz-box-shadow: inset 0 1px 0 #3ab4d9,0 1px 1px rgba(0,0,0,0.3);
+-webkit-box-shadow: inset 0 1px 0 #3ab4d9,0 1px 1px rgba(0,0,0,0.3);
+box-shadow: inset 0 1px 0 #3ab4d9,0 1px 1px rgba(0,0,0,0.3);
+background-color: #0a89af;
+background-repeat: no-repeat;
+background-image: -ms-linear-gradient(top, #0ca6d4 0, #0a89af 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, from(#0ca6d4), to(#0a89af));
+background-image: -webkit-linear-gradient(#0ca6d4, #0a89af);
+background-image: -moz-linear-gradient(#0ca6d4, #0a89af);
+background-image: -o-linear-gradient(top, #0ca6d4, #0a89af);
+background-image: -khtml-gradient(linear, left top, left bottom, from(#0ca6d4), to(#0a89af));
+background-image: linear-gradient(top, #0ca6d4 0, #0a89af 100%);
+filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#0ca6d4', EndColorStr='#0a89af', GradientType=0);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#0ca6d4', EndColorStr='#0a89af', GradientType=0))";
+filter: none;
+color: white;
+font-family: "NOTHS Sans No2 Regular","Helvetica Neue","HelveticaNeue",Arial,sans-serif;
+color: #ffffff;
+text-align: center;
+margin: 0 auto;
+border-radius: 6px;
+overflow: visible;
+cursor: pointer;
+display: inline-block;
+text-decoration: none;
+text-transform: uppercase;
+line-height: normal;
+padding: 10px 16px 8px;
+font-size: 14px;
+border-radius: 5px;
+line-height: 18px;
+height: 38px;
+width: 87px;
+}
 
 /* SEARCH AND RESULTS PAGES START */
 
@@ -206,6 +229,8 @@
 	
 	
 /* SEARCH AND RESULTS PAGES END */
+
+/
 
 /* POSITION DISPLAY PAGE START */
 
@@ -231,6 +256,29 @@
 /* POSITION DISPLAY PAGE END */
 
 /* BIO, PEP, APPLICATION FORM START */
+
+	input[type="checkbox"]:focus {
+		outline: none;
+	}
+
+	input[type="checkbox"] {
+	width: 15px;
+	height: 15px;
+	margin: 0;
+	-webkit-appearance: none;
+	background: url('http://cdn2.notonthehighstreet.com/images/shared/icons/checkbox.png?1390473786') no-repeat;
+	cursor: pointer;
+	}
+
+	input[type="checkbox"]:checked {
+	width: 15px;
+	height: 15px;
+	margin: 0;
+	-webkit-appearance: none;
+	background: url('http://cdn3.notonthehighstreet.com/images/shared/icons/checkbox_selected.png?1390473786') no-repeat;
+	cursor: pointer;
+	}
+
 	form.iswForm .iswQuestionErrorPanel {
 	background-color: #ffdee2;
 	border: 1px solid #cc0000;
